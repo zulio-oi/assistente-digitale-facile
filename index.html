@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Assistente Digitale Facile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="chat-container">
+    <h1>💬 Assistente Digitale Facile</h1>
+    <div id="chat-box">
+      <p><em>Vuoi che parli anche in dialetto romagnolo? Scrivi "parla in dialetto".</em></p>
+    </div>
+    <div id="input-container">
+      <input type="text" id="user-input" placeholder="Scrivi qui la tua domanda..."/>
+      <button onclick="sendMessage()">Invia</button>
+    </div>
+    <button onclick="speakLast()">🔊 Ascolta di nuovo</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
